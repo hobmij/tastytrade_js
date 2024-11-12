@@ -1,0 +1,22 @@
+{
+    "name": "tastytrade_js",
+    "version": "1.0.0",
+    "description": "A simple Node.js project with multiple scripts that exercise the tastytrade api",
+    "type": "module",
+    "main": "mainLoop.js",
+    "scripts": {
+        "script1": "node displayEnvVariables.js",
+        "script2": "node newSession.js",
+        "script3": "node getInstrumentsFutures.js",
+        "script4": "node getApiQuoteTokens.js",
+        "script5": "node processQuotes.js",
+        "script6": "node destroySession.js"
+    },
+    "keywords": [],
+    "author": "James Bohmbach",
+    "license": "ISC",
+    "dependencies": {
+        "@dxfeed/dxlink-api": "^0.3.0",
+        "dotenv": "^16.4.5"
+    }
+}
